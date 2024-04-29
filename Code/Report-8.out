@@ -1,0 +1,22 @@
+---------------------------------------
+Begin Slurm Prolog: Apr-25-2024 11:26:51
+Job ID:    614724
+User ID:   wlai46
+Account:   coc
+Job name:  Mistral7B
+Partition: ice-gpu
+---------------------------------------
+/usr/local/pace-apps/manual/packages/anaconda3/2023.03/bin/python: can't open file '/storage/ice1/3/2/wlai46/r8.py': [Errno 2] No such file or directory
+srun: error: atl1-1-03-013-13-0: task 0: Exited with exit code 2
+---------------------------------------
+Begin Slurm Epilog: Apr-25-2024 11:26:53
+Job ID:        614724
+Array Job ID:  _4294967294
+User ID:       wlai46
+Account:       coc
+Job name:      Mistral7B
+Resources:     cpu=1,gres/gpu:h100=1,mem=30G,node=1
+Rsrc Used:     cput=00:00:02,vmem=0,walltime=00:00:02,mem=2844K,energy_used=0
+Partition:     ice-gpu
+Nodes:         atl1-1-03-013-13-0
+---------------------------------------
